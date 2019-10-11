@@ -32,8 +32,8 @@ describe('Testing  money calc on finances page', function () {
 
 
     })
-
-
+    console.log('KWOTA', this.admin.zipper_kwota_val)
+    console.log('KWOTA', this.admin.zipper_kwota_val)
     cy.get('#zipper_kwota_val')
     .clear()
     .type(this.admin.zipper_kwota_val)
@@ -47,11 +47,11 @@ describe('Testing  money calc on finances page', function () {
       elem.val(this.admin.zipper_term_val);
     })
     .should('have.value', this.admin.zipper_term_val);
-
+    console.log('KWOTA', this.admin.zipper_kwota_val)
     cy.get('select')
     .eq(3)
     .select('To pilne - od zaraz!');
-    
+    console.log('KWOTA', this.admin.zipper_kwota_val)
     cy.get('select')
     .eq(4)
     .select('Wynajmuję dom/mieszkanie');

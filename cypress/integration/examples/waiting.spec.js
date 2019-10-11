@@ -16,12 +16,16 @@ context('Waiting', () => {
     cy.get('.wait-input3').type('Wait 1000ms after typing')
     cy.wait(1000)
   })
+<<<<<<< HEAD
   console.log('KWOTA', this.admin.zipper_kwota_val);
   console.log('KWOTA', this.admin.zipper_kwota_val);
   console.log('KWOTA', this.admin.zipper_kwota_val);
   console.log('KWOTA', this.admin.zipper_kwota_val);
   console.log('KWOTA', this.admin.zipper_kwota_val);
   
+=======
+
+>>>>>>> parent of 6b312d1... Merge pull request #2 from arturkowalczyk1/feature/new-test-branch
   it('cy.wait() - wait for a specific route', () => {
     cy.server()
 

@@ -14,7 +14,7 @@ context('Utilities', () => {
         expect(ids).to.deep.eq([1, 2, 3])
       })
   })
-  console.log('KWOTA', this.admin.zipper_kwota_val);
+
   it('Cypress.$ - call a jQuery method', () => {
     // https://on.cypress.io/$
     let $li = Cypress.$('.utility-jquery li:first')

@@ -4,7 +4,7 @@ context('Aliasing', () => {
   beforeEach(() => {
     cy.visit('https://example.cypress.io/commands/aliasing')
   })
-  console.log('KWOTA', this.admin.zipper_kwota_val);
+
   it('.as() - alias a DOM element for later use', () => {
     // https://on.cypress.io/as
 

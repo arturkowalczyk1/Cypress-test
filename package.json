@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "cypress-example-redirects",
+  "version": "",
+  "description": "This repo contains an example redirects, with the tests written in Cypress",
+  "scripts": {
+    "cypress:version": "cypress version",
+    "cypress:verify": "cypress verify",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:run:record": "cypress run --record",
+    "cypress:run:chrome": "cypress run --browser chrome",
+    "cypress:run:headed": "cypress run --headed"
+  },
+  "devDependencies": {
+    "cypress": "^3.3.1"
+  }
+}

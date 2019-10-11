@@ -1,0 +1,16 @@
+{
+    "zipper_kwota_val": "100000",
+    "zipper_term_val": "24",
+    "rentHome": "1000",
+    "loanPayment": "700",
+    "cardPayment": "200",
+    "monthPayment": "500",
+    "jobPayment": "5000",
+    "phoneNumber": "579176419",
+    "familyMembersNumber": "2",
+    "finalPathCalculateCash": "?scoretype=cash&amount=100000&period=24",
+    "finalPathCalculateCar": "?scoretype=car&amount=100000&period=24&cy=10",
+    "productionYear": "2010",
+    "producentType": "Alfa Romeo",
+    "carType": "MiTo"
+  }

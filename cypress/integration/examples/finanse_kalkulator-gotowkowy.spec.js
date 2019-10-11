@@ -32,13 +32,14 @@ describe('Testing  money calc on finances page', function () {
 
 
     })
+
     console.log('KWOTA', this.admin.zipper_kwota_val)
     console.log('KWOTA', this.admin.zipper_kwota_val)
     cy.get('#zipper_kwota_val')
     .clear()
     .type(this.admin.zipper_kwota_val)
     .should("have.value", this.admin.zipper_kwota_val);
-    console.log('KWOTA', this.admin.zipper_kwota_val);
+
     cy.get('#zipper_term_val')
     .click()
     .clear()

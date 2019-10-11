@@ -24,17 +24,17 @@ context('Aliasing', () => {
       .should('have.class', 'btn-success')
       .and('contain', 'Changed')
   })
-  console.log('KWOTA', this.admin.zipper_kwota_val)
+
   it('.as() - alias a route for later use', () => {
 
     // Alias the route to wait for its response
     cy.server()
     cy.route('GET', 'comments/*').as('getComment')
-    console.log('KWOTA', this.admin.zipper_kwota_val)
+
     // we have code that gets a comment when
     // the button is clicked in scripts.js
     cy.get('.network-btn').click()
-    console.log('KWOTA', this.admin.zipper_kwota_val)
+
     // https://on.cypress.io/wait
     cy.wait('@getComment').its('status').should('eq', 200)
 

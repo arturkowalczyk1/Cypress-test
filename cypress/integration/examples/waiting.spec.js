@@ -17,6 +17,11 @@ context('Waiting', () => {
     cy.wait(1000)
   })
   console.log('KWOTA', this.admin.zipper_kwota_val);
+  console.log('KWOTA', this.admin.zipper_kwota_val);
+  console.log('KWOTA', this.admin.zipper_kwota_val);
+  console.log('KWOTA', this.admin.zipper_kwota_val);
+  console.log('KWOTA', this.admin.zipper_kwota_val);
+  
   it('cy.wait() - wait for a specific route', () => {
     cy.server()
 

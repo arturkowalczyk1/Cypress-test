@@ -16,7 +16,7 @@ context('Waiting', () => {
     cy.get('.wait-input3').type('Wait 1000ms after typing')
     cy.wait(1000)
   })
-
+  console.log('KWOTA', this.admin.zipper_kwota_val);
   it('cy.wait() - wait for a specific route', () => {
     cy.server()
 

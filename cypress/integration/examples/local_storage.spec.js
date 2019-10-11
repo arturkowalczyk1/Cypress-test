@@ -7,7 +7,7 @@ context('Local Storage', () => {
   // Although local storage is automatically cleared
   // in between tests to maintain a clean state
   // sometimes we need to clear the local storage manually
-
+  console.log('KWOTA', this.admin.zipper_kwota_val);
   it('cy.clearLocalStorage() - clear all data in local storage', () => {
     // https://on.cypress.io/clearlocalstorage
     cy.get('.ls-btn').click().should(() => {
